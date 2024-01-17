@@ -1,0 +1,177 @@
+	hub fan2017
+	shortLabel fan2017
+	longLabel fan2017
+	useOneFile on
+	email fanjing@sibcb.ac.cn
+
+genome hg38
+
+track RRP40_KD_plus
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765d1b3175579712d80/display?to_ext=bigwig
+shortLabel RRP40 KD
+longLabel PPR40 KD plus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 147,148,223
+
+track MTR4_KD_plus
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765812cd47f70a89db7/display?to_ext=bigwig
+shortLabel MTR4 KD
+longLabel MTR4 KD plus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 147,75,67
+
+track Cntl_plus
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765ad860ba6bad023e4/display?to_ext=bigwig
+shortLabel Cntl
+longLabel Cntl plus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 153,153,153
+
+track RRP40_KD_minus
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765d7600bc73d63540c/display?to_ext=bigwig
+shortLabel RRP40 KD
+longLabel PPR40 KD minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 147,148,223
+
+track MTR4_KD_minus
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765c4468b347f8cf8d5/display?to_ext=bigwig
+shortLabel MTR4 KD
+longLabel MTR4 KD minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 147,75,67
+
+track Cntl_minus
+bigDataUrl https://usegalaxy.eu/api/datasets/4838ba20a6d86765064ad27faaccdf9f/display?to_ext=bigwig
+shortLabel Cntl
+longLabel Cntl minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 153,153,153
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+track nanopore_cDNA_non_rep1_plus
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135043beff91cbafa53/display?to_ext=bigwig
+shortLabel non_rep1_plus
+longLabel nanopore_cDNA_non_rep1_plus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 0,0,0
+
+track nanopore_cDNA_only_rep1_plus
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213527b21f5239e8ade5/display?to_ext=bigwig
+shortLabel only_rep1_plus
+longLabel nanopore_cDNA_only_rep1_plus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 130,176,210
+
+track nanopore_cDNA_rep1_minus
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d008003cda664972/display?to_ext=bigwig
+shortLabel rep1_minus
+longLabel nanopore_cDNA_rep1_minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 0,0,0
+
+track nanopore_cDNA_ir_rep1_minus
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135007199f6091b3835/display?to_ext=bigwig
+shortLabel ir_rep1_minus
+longLabel nanopore_cDNA_ir_rep1_minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 250,127,111
+
+track nanopore_cDNA_non_rep1_minus
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213548eb44b83dea60fd/display?to_ext=bigwig
+shortLabel non_rep1_minus
+longLabel nanopore_cDNA_non_rep1_minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 0,0,0
+
+track nanopore_cDNA_only_rep1_minus
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135415ddb59550e4c8f/display?to_ext=bigwig
+shortLabel only_rep1_minus
+longLabel nanopore_cDNA_only_rep1_minus
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:60:8 
+color 130,176,210
+
+track nanopore_cDNA_ir_rep1
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135447596fc588cd4e4/display?to_ext=bigbed
+shortLabel ir_rep1.bb
+longLabel nanopore_cDNA_ir_rep1.bb
+type bigBed 12
+visibility squish
+maxItems 100000 
+color 250,127,111
+
+track nanopore_cDNA_non_rep1
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351f589637d134f972/display?to_ext=bigbed
+shortLabel non_rep1.bb
+longLabel nanopore_cDNA_non_rep1.bb
+type bigBed 12
+visibility squish
+maxItems 100000
+color 0,0,0
+
+track nanopore_cDNA_only_rep1
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135feb7d6cec81c50c0/display?to_ext=bigbed
+shortLabel only_rep1.bb
+longLabel nanopore_cDNA_only_rep1.bb
+type bigBed 12
+visibility squish
+maxItems 100000
+color 130,176,210
